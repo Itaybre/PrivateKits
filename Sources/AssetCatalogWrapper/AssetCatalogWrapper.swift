@@ -485,7 +485,7 @@ public extension CUICatalog {
             if isInternalLink {
                 let keyList = rendition.linkingToRendition()?.keyList()
                 carKey = themeStore.convertRenditionKey(toKeyData: keyList)
-                rendition = CUIThemeRendition(csiData: assetStorage.asset(forKey: carKey!), forKey: keyList)
+                rendition = CUIThemeRendition(csiData: assetStorage.asset(forKey: carKey!), forKey: keyList, version: 1)
             }
             
             guard let carKey = carKey else {
