@@ -58,6 +58,7 @@
 - (struct CGRect)_destinationFrame;
 - (struct CGSize)unslicedSize;
 - (_Nonnull id)initWithCSIData:(NSData *)arg1 forKey:(const struct renditionkeytoken *)arg2;
+- (_Nonnull id)initWithCSIData:(NSData *)arg1 forKey:(const struct renditionkeytoken *)arg2 version:(unsigned)arg3;
 @end
 
 
